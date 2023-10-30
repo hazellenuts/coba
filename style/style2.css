@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Metal+Mania&display=swap');
+
+
+
+
+:root{
+    --green:#27ae60;
+    --black:#333;
+    --white:#fff;
+    --bg-color:#eee;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid var(--black);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.btn-tambah {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    background-color: #ff9822;
+    color: #6f1d0d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+    z-index: 1000;
+}
+
+.btn-tambah:hover {
+    background-color: #c04be7;
+    color: white;
+}
+
+body{
+    margin-top: 100px;
+}
+
+
+th{
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+
+.kucing {
+    position: absolute;
+    top: 11px; /* Menentukan jarak dari atas (sesuaikan sesuai keinginan) */
+    left: 50%; /* Menempatkan gambar di tengah horizontal */
+    transform: translateX(-50%); /* Untuk mengatur posisi horizontal ke tengah */
+    z-index: 100;
+}
+
+.container {
+    position: relative; /* Membuat kontainer menjadi konteks posisi gambar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #410057ba;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 118px 0 #ff46f986;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(5px);
+    margin: 0 auto;
+    border: 1.5px solid #c04be7;
+    width: 1200px;
+}
+
+table{
+    
+    border-collapse: collapse;
+    
+}
+
+td{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.pumpkin {
+    position: fixed;
+    bottom: 0; /* Membuat gambar berada di bagian bawah layar */
+    right: 0; /* Membuat gambar berada di pojok kanan */
+    z-index: 1000;
+}
+
+.tabledisplay i{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    z-index: 200;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: white;
+    justify-content: center;
+}
